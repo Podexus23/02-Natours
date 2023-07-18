@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* size for 1 rem 10/16 = 62.50% */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
