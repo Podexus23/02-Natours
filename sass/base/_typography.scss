@@ -58,11 +58,11 @@ body {
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 
-  @include respond(teb-port) {
+  @include respond(tab-land) {
     font-size: 3rem;
   }
 
-  @include respond(teb-port) {
+  @include respond(tab-port) {
     font-size: 2.5rem;
   }
 
