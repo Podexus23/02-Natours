@@ -27,7 +27,8 @@
     transform: skewY(7deg);
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+    (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
     (min-resolution: 192dpi) and (min-width: 37.5em),
     (min-width: 125em) {
     background: linear-gradient(
@@ -107,7 +108,8 @@
       url(../img/nat-10-small.jpg);
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+    (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
     (min-resolution: 192dpi) and (min-width: 37.5em),
     (min-width: 125em) {
     background-image: linear-gradient(
